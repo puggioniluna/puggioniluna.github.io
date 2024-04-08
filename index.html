@@ -81,6 +81,19 @@ table {margin-left: 130px;
 	border-top-width: 2px;
 	border-radius: 10px
 }
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #ffc8c8;
+  }
+  .active {
+    background-color: #d8c5c5;
+  }
 </style>
 
 
@@ -90,13 +103,17 @@ table {margin-left: 130px;
   <!-- Navigation -->
 <header> 
            <img src="TITOLO1.png" alt="Immagine titolo" width="800px" height="150px">
-<nav>
-<body>
-<a href="#CHI E'?">CHI E'?</a> <a href="#SAGHE PRINCIPALI">SAGHE PRINCIPALI</a> <a href="Seconda pagina.html">Personaggi di "Dei dell'Olimpo"</a> <a href="Terza pagina.html">Personaggi di "Eroi dell'Olimpo"</a>
-            </body>
-        </nav>
 </header> 
+<body>
+<ul>
+    <li><a href="#CHI E'?">CHI E'?</a></li>
+    <li><a href="#SAGHE PRINCIPALI">SAGHE PRINCIPALI</a></li>
+    <li><a href="Seconda pagina.html">Personaggi di "Dei dell'Olimpo"</a></li>
+    <li><a href="Terza pagina.html">Personaggi di "Eroi dell'Olimpo"</a></li>
+    </ul>
+ </body>
 
+	
 <p>
 <div class="contenitore sfondo-testo testo-oro">
 "Non ho scelto io di essere un mezzosangue.
