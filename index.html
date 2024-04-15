@@ -84,27 +84,20 @@ table {margin-left: 130px;
 	border-top-width: 2px;
 	border-radius: 10px
 }
-nav {
-    background-color: white;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    display: inline;
-}
-nav ul li a {
-    display: inline-block;
-    padding: 10px; 
+.primary-button {
+    background-color: white; 
     color: blue; 
+    padding: 10px;
+    border: none; 
+    border-radius: 5px; 
     text-decoration: none; 
+    cursor: pointer; 
 }
-nav ul li a:hover {
-    background-color: light-blue; 
-</style>
 
+.primary-button:hover {
+    background-color: light-blue; 
+}
+</style>
 
 <body>
 <!-- Main Container -->
@@ -115,10 +108,10 @@ nav ul li a:hover {
 <body>
 <nav>
     <ul>
-        <li><a href="#CHI E'?">CHI E'?</a></li>
-        <li><a href="#SAGHE PRINCIPALI">SAGHE PRINCIPALI</a></li>
-        <li><a href="Seconda pagina.html">Personaggi di "Dei dell'Olimpo"</a></li>
-        <li><a href="Terza pagina.html">Personaggi di "Eroi dell'Olimpo"</a></li>
+        <li><a href="#CHI E'?" class="primary-button">CHI E'?</a></li>
+        <li><a href="#SAGHE PRINCIPALI" class="primary-button">SAGHE PRINCIPALI</a></li>
+        <li><a href="Seconda pagina.html" class="primary-button">Personaggi di "Dei dell'Olimpo"</a></li>
+        <li><a href="Terza pagina.html" class="primary-button">Personaggi di "Eroi dell'Olimpo"</a></li>
     </ul>
 </nav>
 </body>	
