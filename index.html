@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 <title>PERCY JACKSON</title>
 <style>
 h1 {color: white;
@@ -81,19 +84,25 @@ table {margin-left: 130px;
 	border-top-width: 2px;
 	border-radius: 10px
 }
- li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  li a:hover:not(.active) {
-    background-color: #ffc8c8;
-  }
-  .active {
-    background-color: #d8c5c5;
-  }
+nav {
+    background-color: white;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px; 
+    color: blue; 
+    text-decoration: none; 
+}
+nav ul li a:hover {
+    background-color: light-blue; 
 </style>
 
 
@@ -104,11 +113,15 @@ table {margin-left: 130px;
 <header> 
            <img src="TITOLO1.png" alt="Immagine titolo" width="800px" height="150px">
 <body>
-    <a href="#CHI E'?">CHI E'?</a>
-    <a href="#SAGHE PRINCIPALI">SAGHE PRINCIPALI</a>
-    <a href="Seconda pagina.html">Personaggi di "Dei dell'Olimpo"</a>
-    <a href="Terza pagina.html">Personaggi di "Eroi dell'Olimpo"</a>
- </body>
+<nav>
+    <ul>
+        <li><a href="#CHI E'?">CHI E'?</a></li>
+        <li><a href="#SAGHE PRINCIPALI">SAGHE PRINCIPALI</a></li>
+        <li><a href="Seconda pagina.html">Personaggi di "Dei dell'Olimpo"</a></li>
+        <li><a href="Terza pagina.html">Personaggi di "Eroi dell'Olimpo"</a></li>
+    </ul>
+</nav>
+</body>	
 </header>
 	
 <p>
