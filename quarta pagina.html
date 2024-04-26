@@ -49,6 +49,31 @@ body {
     width: 100%; 
     display: flex; 
     justify-content: center;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  .container {
+    text-align: center;
+  }
+  .photo {
+    width: 200px; /* Imposta la larghezza della foto */
+    height: 200px; /* Imposta l'altezza della foto */
+    border-radius: 50%; /* Rende la foto rotonda */
+    overflow: hidden; /* Nasconde parti della foto al di fuori del bordo rotondo */
+    margin-bottom: 20px; /* Spazio inferiore tra la foto e il testo */
+  }
+  .photo img {
+    width: 100%; /* Riempie completamente il contenitore della foto */
+    height: auto;
+  }	
 </style>
 </head>
 
@@ -69,6 +94,19 @@ body {
 </nav>
 </body>	
 </header>
+
+<div class="container">
+  <div class="photo">
+<img src="FILM1.png" alt="Immagine titolo" style="margin-top:100px;width:800px;height:500px;">
+  </div>
+  <div class="text">
+    <h2>Il mio testo</h2>
+    <p>In questo esempio, il CSS viene utilizzato per centrare la foto e il testo verticalmente 
+e orizzontalmente sulla pagina. La foto viene resa rotonda e il testo è posizionato al di sotto 
+di essa. Puoi sostituire "url_della_tua_foto.jpg" con l'URL della tua immagine.</p>
+  </div>
+</div>	
+
 <div class="container2">
 <img src="FILM1.png" alt="Immagine titolo" style="margin-top:100px;width:800px;height:500px;">
 </div>
